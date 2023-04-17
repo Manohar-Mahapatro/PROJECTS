@@ -1,0 +1,23 @@
+[ 2023-04-17 21:29:49,886 ] 26 root - INFO - Data Ingestion methods Starts
+[ 2023-04-17 21:29:50,058 ] 29 root - INFO - Dataset read as pandas Dataframe
+[ 2023-04-17 21:29:50,480 ] 33 root - INFO - Train test split
+[ 2023-04-17 21:29:50,942 ] 39 root - INFO - Ingestion of Data is completed
+[ 2023-04-17 21:29:51,135 ] 77 root - INFO - Read train and test data completed
+[ 2023-04-17 21:29:51,137 ] 78 root - INFO - Train Dataframe Head : 
+       id\tcarat\tcut\tcolor\tclarity\tdepth\ttable\tx\ty\tz\tprice
+0      11504\t0.41\tIdeal\tE\tVVS2\t60.6\t56\t4.85\t4.8\t2.93\t1181
+1  95284\t1.23\tVery Good\tH\tVS1\t59.9\t59\t6.91\t7.01\t4.19\t7418
+2     184777\t1.7\tPremium\tH\tVS2\t62\t58\t7.61\t7.66\t4.74\t12755
+3      5419\t0.33\tIdeal\tF\tVVS1\t61.2\t56\t4.47\t4.44\t2.73\t1020
+4   45466\t0.33\tVery Good\tI\tSI1\t62.1\t58\t4.41\t4.45\t2.75\t445
+[ 2023-04-17 21:29:51,139 ] 79 root - INFO - Test Dataframe Head  : 
+      id\tcarat\tcut\tcolor\tclarity\tdepth\ttable\tx\ty\tz\tprice
+0      14868\t0.5\tIdeal\tD\tSI1\t62.1\t57\t5.05\t5.08\t3.14\t1355
+1  165613\t2\tVery Good\tG\tSI2\t59.5\t57\t8.08\t8.15\t4.89\t14691
+2   96727\t0.27\tPremium\tE\tVVS1\t60.5\t59\t4.19\t4.16\t2.52\t844
+3  145593\t0.32\tPremium\tI\tVVS1\t61.2\t59\t4.43\t4.44\t2.71\t707
+4    118689\t1.19\tIdeal\tH\tSI1\t62.5\t56\t6.77\t6.81\t4.23\t5797
+[ 2023-04-17 21:29:51,139 ] 81 root - INFO - Obtaining preprocessing object
+[ 2023-04-17 21:29:51,139 ] 26 root - INFO - Data Transformation initiated
+[ 2023-04-17 21:29:51,139 ] 36 root - INFO - Pipeline Initiated
+[ 2023-04-17 21:29:51,141 ] 119 root - INFO - Exception occured in the initiate_datatransformation
